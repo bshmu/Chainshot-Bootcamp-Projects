@@ -1,0 +1,55 @@
+body {
+  font-family: Muli, sans-serif;
+  font-weight: 300;
+}
+
+input {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 9px 25px;
+}
+
+.components label {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.components input {
+  flex-wrap: wrap;
+  margin: 8px;
+  display: flex;
+}
+
+.components .button {
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  background-color: #f58427;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  padding: 9px 25px;
+  font-size: .7em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.components .button:hover {
+  cursor: pointer;
+}
+
+.components table {
+  width: 100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+  margin-top: 16px;
+}
+
+.components > div {
+  text-align: center;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px 50px;
+}
+
+/*# sourceMappingURL=index.a32d1e8b.css.map */
